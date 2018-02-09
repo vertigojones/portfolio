@@ -1,0 +1,17 @@
+.nav-wrapper {
+    background-color: #0277bd;
+}
+
+.brand-logo {
+    padding-left: 10px !important;
+    text-shadow: 2px 2px 5px rgba(75, 74, 74, 0.8);
+    font-family: 'Rock Salt', cursive;
+}
+
+a {
+    text-shadow: 2px 2px 5px rgba(75, 74, 74, 0.8);
+}
+
+col s3 {
+    background-color: #cfd8dc;
+}
