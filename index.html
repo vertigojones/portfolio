@@ -13,18 +13,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Life+Savers" rel="stylesheet">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <Title>Owen Liversidge, Web Developer</Title>
+    <Title>Weblish Designs</Title>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo">Owen Liversidge, Web Developer</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <div class="nav-wrapper light-blue darken-3">
+                <a href="#!" class="brand-logo">Weblish!</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="mobile.html">Mobile</a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
                     <li>
                         <a href="sass.html">Sass</a>
                     </li>
@@ -32,7 +50,10 @@
                         <a href="badges.html">Components</a>
                     </li>
                     <li>
-                        <a href="collapsible.html">JavaScript</a>
+                        <a href="collapsible.html">Javascript</a>
+                    </li>
+                    <li>
+                        <a href="mobile.html">Mobile</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +62,7 @@
 
     <main>
         <!-- Page Layout here -->
-        <div class="row">
+        <div class="row teal lighten-5">
 
             <div class="col s12 m4 l3">
                 <!-- Note that "m4 l3" was added -->
@@ -51,6 +72,19 @@
             3-columns-wide on large screens,
             4-columns-wide on medium screens,
             12-columns-wide on small screens  -->
+
+                <h2 class="header">About Me</h2>
+
+                <p>Hello there! My name is Owen Liversidge and I am a Full Stack Web Developer. My interest in design and functionality
+                    stretches back to my late teenage years, when I studied design in England. After graduating in Design,
+                    I moved into the field of music for nearly 20 years. During this time I self-published a series of method
+                    books for teaching the drum set, which sell all over the world. During this process my interest in design
+                    was reignited and I decided to go back to school to become a Web Developer. The immersive program at
+                    General Assembly, in Atlanta, taught me everything that I needed to know (plus more). </p>
+
+                <p>Moving forward, I would love to continue to work in the field of media. That way I can combine all of my
+                    skills and be of maximum benefit to an individual or company. Eventually, I would love to be a Product
+                    Manager and help lead a team to build something truly amazing.</p>
 
             </div>
 
@@ -63,14 +97,85 @@
             8-columns-wide on medium screens,
             12-columns-wide on small screens  -->
 
+                <div class="col s12 m7">
+                    <h2 class="header">Projects</h2>
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="images/Donald_Trump1.jpg">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <p>I created the Trumpisms™ game for my first project at General Assembly, Atlanta. It is based
+                                    on the classic Hangman game, where you have to guess the word that The Donald once made
+                                    up. However, if you guess incorrectly, The Donald will start to appear. If you guess
+                                    too many incorrect letters then you will be fired!</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="http://awesome-franklin-94d5f5.bitballoon.com/" target="blank">Play Trumpisms™</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m7">
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="images/DT-CS-COVER.jpg">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <p>Before diving headfirst into web development, I authored and published a series of teaching
+                                    books for the modern drummer. The volume is divided into three books, with a two part
+                                    interactive method designed for drum instructors to use with students, plus one "anti-method"
+                                    for some alternative fun. I also used my background in design to create the covers and
+                                    overall layouts. The books are sold all over the world.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&text=Owen+Liversidge&search-alias=books&field-author=Owen+Liversidge&sort=relevancerank"
+                                    target="blank">Books on Amazon</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
     </main>
 
-    <footer>
-
+    <footer class="page-footer light-blue darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Bits 'n' Bobs</h5>
+                    <p class="grey-text text-lighten-4">Here are some links to my social media sites.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://github.com/vertigojones">GitHub</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/owen-liversidge-39137470/">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://www.facebook.com/owen.liversidge">Facebook</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Weblish! Designs
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
     </footer>
 
     <!--Import jQuery before materialize.js-->
